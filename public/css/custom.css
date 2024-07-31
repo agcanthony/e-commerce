@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.header, .footer {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-link i {
+    font-size: 35px;
+    color: slategray;
+
+}
+
+#cart-count {
+    position: absolute;
+    top: -2px; 
+    right: -2px; 
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 2px; 
+    font-size: 10px; 
+    width: 20px; 
+    height: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0rem !important
+}
+
+.custom-btn {
+    width: 24px !important; 
+    height: 24px !important; 
+    line-height: 36px; 
+    font-size: 18px; 
+}
+
+.icone-delete {
+    top: -9px;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    right: 1px;
+    line-height: 1px !important;
+    font-size: 8px !important;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+}
+
+.item-details {
+    flex: 1; 
+}
+
+.remove-from-cart-form {
+    margin-left: auto; 
+}
+
+.linha {
+    display: flex;
+    flex-direction: row-reverse;
+    right: 20px;
+    position: relative;
+}
